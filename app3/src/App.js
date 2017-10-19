@@ -44,7 +44,7 @@ class App extends Component {
       <div className='filter-products'>
         <form>
           <label>filter
-            <input type='text' name='filter' onChange={this.filterProduct}/>
+            <input type='search' name='filter' onChange={this.filterProduct}/>
           </label>
         </form>
       </div>
