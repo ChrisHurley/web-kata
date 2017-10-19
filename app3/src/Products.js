@@ -39,7 +39,7 @@ class Products extends Component{
                 (p, i) => 
                 <Product
                     product={p}
-                    key={'product-' + i }
+                    key={'product-' + p.name }
                     removeProduct={this.props.removeProduct}
                 />
             )}
