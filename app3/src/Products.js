@@ -18,7 +18,7 @@ class Product extends Component{
         return <div className='product'>
             <div>
                 <a href='#' onClick={this.toggleExpanded}>
-                { this.state.expanded ? '-' : '+' }
+                    { this.state.expanded ? '-' : '+' }
                 </a>
             </div>
             <div className='details'>
